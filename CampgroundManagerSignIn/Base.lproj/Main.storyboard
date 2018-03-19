@@ -22,7 +22,7 @@
                                 <rect key="frame" x="30" y="152" width="315" height="150"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bv1-Pd-tIt">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -34,7 +34,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xbe-IL-rVb">
-                                        <rect key="frame" x="0.0" y="82.5" width="315" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="55" width="315" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -45,6 +45,14 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YdS-K8-01f">
+                                        <rect key="frame" x="0.0" y="110" width="315" height="41"/>
+                                        <segments>
+                                            <segment title="Employee"/>
+                                            <segment title="Manager"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="230-RD-yXb"/>
@@ -78,6 +86,7 @@
                     </view>
                     <connections>
                         <outlet property="passwordTextView" destination="Xbe-IL-rVb" id="3Mb-Js-lkl"/>
+                        <outlet property="roleChooser" destination="YdS-K8-01f" id="V0l-zg-EQJ"/>
                         <outlet property="signInBtn" destination="XQb-sF-WFh" id="KXq-2K-oEW"/>
                         <outlet property="userTextView" destination="Bv1-Pd-tIt" id="myu-8K-h7u"/>
                     </connections>

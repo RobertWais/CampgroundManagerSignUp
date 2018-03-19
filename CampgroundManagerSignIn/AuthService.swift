@@ -17,17 +17,22 @@ class AuthService {
     
     static let instance = AuthService()
     
-    func registerUser(email: String, password:String, complete: @escaping (_ status: Bool, _ error: Error?) -> ()){
+    func registerUser(email: String, password:String, role: String ,complete: @escaping (_ status: Bool, _ error: Error?) -> ()){
         Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            
             guard let user = user else {
                 complete(false,error)
-                print("Error")
                 return
             }
-            print("Okay")
             let userData = ["provider": user.providerID, "email": user.email]
             DataService.instance.createDBUser(uniqueID: user.uid, userData: userData)
+            DB_BASE.child("users").child(user.uid).updateChildValues(["role" : role])
+            
+            //Note on retrieving data
+           /* DB_BASE.child("users").child((user?.uid)!).child("role").observe(DataEventType.value){ (data) in
+                var val = data.value as? String
+                print("Val: \(val)")
+            }
+            */
             complete(true,nil)
         }
     }
