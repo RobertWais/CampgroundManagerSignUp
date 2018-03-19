@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E22467F20604C3100BFEEE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E22467E20604C3100BFEEE8 /* GoogleService-Info.plist */; };
+		2E22468120604D9700BFEEE8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22468020604D9700BFEEE8 /* DataService.swift */; };
+		2E22468320604DCB00BFEEE8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22468220604DCB00BFEEE8 /* AuthService.swift */; };
 		2E38FDAF20533870009ACE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FDAE20533870009ACE7E /* AppDelegate.swift */; };
 		2E38FDB120533870009ACE7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FDB020533870009ACE7E /* ViewController.swift */; };
 		2E38FDB420533870009ACE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FDB220533870009ACE7E /* Main.storyboard */; };
 		2E38FDB620533870009ACE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FDB520533870009ACE7E /* Assets.xcassets */; };
 		2E38FDB920533870009ACE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FDB720533870009ACE7E /* LaunchScreen.storyboard */; };
+		70E00879AA7532B3EBB2F430 /* Pods_CampgroundManagerSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0205040AB2597D52F49AFA /* Pods_CampgroundManagerSignIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0205040AB2597D52F49AFA /* Pods_CampgroundManagerSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampgroundManagerSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E22467E20604C3100BFEEE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E22468020604D9700BFEEE8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2E22468220604DCB00BFEEE8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2E38FDAB20533870009ACE7E /* CampgroundManagerSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampgroundManagerSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E38FDAE20533870009ACE7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E38FDB020533870009ACE7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		2E38FDB520533870009ACE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E38FDB820533870009ACE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E38FDBA20533870009ACE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77E311E852D23CE04310D53 /* Pods-CampgroundManagerSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampgroundManagerSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampgroundManagerSignIn/Pods-CampgroundManagerSignIn.release.xcconfig"; sourceTree = "<group>"; };
+		E660B45AC661CFFD9C66CD96 /* Pods-CampgroundManagerSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampgroundManagerSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampgroundManagerSignIn/Pods-CampgroundManagerSignIn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E00879AA7532B3EBB2F430 /* Pods_CampgroundManagerSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				2E38FDAD20533870009ACE7E /* CampgroundManagerSignIn */,
 				2E38FDAC20533870009ACE7E /* Products */,
+				4CC80608F729CB92A47FFF37 /* Pods */,
+				412E48C6116A080BF7CDEFF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +73,28 @@
 				2E38FDB520533870009ACE7E /* Assets.xcassets */,
 				2E38FDB720533870009ACE7E /* LaunchScreen.storyboard */,
 				2E38FDBA20533870009ACE7E /* Info.plist */,
+				2E22467E20604C3100BFEEE8 /* GoogleService-Info.plist */,
+				2E22468020604D9700BFEEE8 /* DataService.swift */,
+				2E22468220604DCB00BFEEE8 /* AuthService.swift */,
 			);
 			path = CampgroundManagerSignIn;
+			sourceTree = "<group>";
+		};
+		412E48C6116A080BF7CDEFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B0205040AB2597D52F49AFA /* Pods_CampgroundManagerSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CC80608F729CB92A47FFF37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E660B45AC661CFFD9C66CD96 /* Pods-CampgroundManagerSignIn.debug.xcconfig */,
+				C77E311E852D23CE04310D53 /* Pods-CampgroundManagerSignIn.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E38FDBD20533870009ACE7E /* Build configuration list for PBXNativeTarget "CampgroundManagerSignIn" */;
 			buildPhases = (
+				D7396B47AB3FDCF3F9C9370A /* [CP] Check Pods Manifest.lock */,
 				2E38FDA72053386F009ACE7E /* Sources */,
 				2E38FDA82053386F009ACE7E /* Frameworks */,
 				2E38FDA92053386F009ACE7E /* Resources */,
+				497B19AEC0BDD7F1177C8BDE /* [CP] Embed Pods Frameworks */,
+				5AF2E363F3714E3D352CB293 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E38FDB920533870009ACE7E /* LaunchScreen.storyboard in Resources */,
+				2E22467F20604C3100BFEEE8 /* GoogleService-Info.plist in Resources */,
 				2E38FDB620533870009ACE7E /* Assets.xcassets in Resources */,
 				2E38FDB420533870009ACE7E /* Main.storyboard in Resources */,
 			);
@@ -131,13 +168,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		497B19AEC0BDD7F1177C8BDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CampgroundManagerSignIn/Pods-CampgroundManagerSignIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampgroundManagerSignIn/Pods-CampgroundManagerSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF2E363F3714E3D352CB293 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampgroundManagerSignIn/Pods-CampgroundManagerSignIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7396B47AB3FDCF3F9C9370A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampgroundManagerSignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E38FDA72053386F009ACE7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E22468120604D9700BFEEE8 /* DataService.swift in Sources */,
 				2E38FDB120533870009ACE7E /* ViewController.swift in Sources */,
 				2E38FDAF20533870009ACE7E /* AppDelegate.swift in Sources */,
+				2E22468320604DCB00BFEEE8 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +371,11 @@
 		};
 		2E38FDBE20533870009ACE7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E660B45AC661CFFD9C66CD96 /* Pods-CampgroundManagerSignIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V78FR972C;
 				INFOPLIST_FILE = CampgroundManagerSignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bob.CampgroundManagerSignIn;
@@ -286,9 +387,11 @@
 		};
 		2E38FDBF20533870009ACE7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77E311E852D23CE04310D53 /* Pods-CampgroundManagerSignIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V78FR972C;
 				INFOPLIST_FILE = CampgroundManagerSignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bob.CampgroundManagerSignIn;
